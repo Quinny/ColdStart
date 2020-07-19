@@ -37,6 +37,21 @@
       "homebrew": "clang-format"
     },
     {
+      "name": "Install GDB Dashboard",
+      "download-file": "https://git.io/.gdbinit",
+      "to": "~/.gdbinit"
+    },
+    {
+      "name": "Load vim config",
+      "download-file": "https://raw.githubusercontent.com/Quinny/ColdStart/master/.vimrc",
+      "to": "~/.vimrc"
+    },
+    {
+      "name": "Load tmux config",
+      "download-file": "https://raw.githubusercontent.com/Quinny/ColdStart/master/.tmux.conf",
+      "to": "~/.tmux.conf"
+    },
+    {
       "manual": "Install Hammerspooon @ http://www.hammerspoon.org"
     },
     {
@@ -44,11 +59,6 @@
     },
     {
       "manual": "Install iTerm2"
-    },
-    {
-      "name": "Install GDB Dashboard",
-      "download-file": "https://git.io/.gdbinit",
-      "to": "~/.gdbinit"
     }
   ]
 }

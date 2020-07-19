@@ -9,8 +9,6 @@ TODO
 
 1. Load custom Hammerspoon config
 1. Install vim-plug: https://github.com/junegunn/vim-plug
-1. Load custom tmux config
-1. Install custom vim config
 1. Install ycm
    1. brew install cmake macvim python
    1. brew install mono go nodejs
