@@ -1,0 +1,54 @@
+{
+  "steps": [
+    {
+      "name": "Install homebrew",
+      "check": {
+        "not-already-installed": "brew"
+      },
+      "install": {
+        "command": "/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)\""
+      }
+    },
+    {
+      "name": "Install oh-my-zsh",
+      "check": {
+        "directory-not-exists": "~/.oh-my-zsh"
+      },
+      "install": {
+        "command": "sh -c \"$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\""
+      }
+    },
+    {
+      "homebrew": "wget"
+    },
+    {
+      "homebrew": "sdl2"
+    },
+    {
+      "homebrew": "boost"
+    },
+    {
+      "homebrew": "tmux"
+    },
+    {
+      "homebrew": "vim"
+    },
+    {
+      "homebrew": "clang-format"
+    },
+    {
+      "manual": "Install Hammerspooon @ http://www.hammerspoon.org"
+    },
+    {
+      "manual": "Install Google Chrome"
+    },
+    {
+      "manual": "Install iTerm2"
+    },
+    {
+      "name": "Install GDB Dashboard",
+      "download-file": "https://git.io/.gdbinit",
+      "to": "~/.gdbinit"
+    }
+  ]
+}
