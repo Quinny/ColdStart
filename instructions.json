@@ -52,6 +52,11 @@
       "to": "~/.tmux.conf"
     },
     {
+      "name": "Load Hammerspoon config",
+      "download-file": "https://raw.githubusercontent.com/Quinny/ColdStart/master/.hammerspoon/init.lua",
+      "to": "~/.hammerspoon/init.lua"
+    },
+    {
       "manual": "Install Hammerspooon @ http://www.hammerspoon.org"
     },
     {
