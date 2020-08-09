@@ -57,6 +57,11 @@
       "to": "~/.hammerspoon/init.lua"
     },
     {
+      "name": "Load ClangFormat config",
+      "download-file": "https://raw.githubusercontent.com/Quinny/ColdStart/master/.clang-format",
+      "to": "~/.clang-format"
+    },
+    {
       "manual": "Install Hammerspooon @ http://www.hammerspoon.org"
     },
     {
